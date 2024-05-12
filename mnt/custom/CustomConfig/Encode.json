@@ -1,0 +1,71 @@
+{
+	"Mem":
+    {   
+        "6M": [-1, 50] 
+    }, 
+	"CaptureSizes": 
+	{
+		"6M": [3200, 1800, 1800],
+		"D1": [800, 448, 448]
+	},
+	"ExVb": 
+	{
+		"2": [640, 360, 3]
+	},
+	"Vi":
+	{
+		"SensorFPS_PAL": 25,
+		"SensorFPS_NTSC": 30,
+		"CapWHXY": [2680, 1616, 0, 0],
+		"ViX":
+		[
+			{
+				"Channel": 0,
+				"CapSize": "6M",
+                "VbBlk": 3
+			},
+			{
+				"Channel": 1,
+				"CapSize": "D1",
+                "VbBlk": 3
+			}
+		]
+	},
+	"Venc":
+	{
+        "VencMem" : "MINI",
+		"VencType": ["H265"],
+		"VencX":
+		[
+			{
+				"Channel": 0,
+				"MaxSize": "6M",
+				"CapSizeSrc": ["6M"]
+			},
+			{
+				"Channel": 1,
+				"MaxSize": "D1",
+				"CapSizeSrc": ["D1", "CIF"]
+			}
+		],
+		"Jpeg":
+		{
+			"Channel": 3,
+			"MaxSize": "D1",
+			"CapSizeSrc": ["D1", "CIF"]
+		}
+	},
+	"Audio":
+	{
+		"AudioPlayEnable": true
+	},
+	"Smart":
+	{
+	},
+	"ViV2":
+	{
+	},
+	"Isp":
+	{
+	}
+}

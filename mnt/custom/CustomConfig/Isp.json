@@ -1,0 +1,9 @@
+{
+	"Device": "X6-WQ",
+	"OEM": "General",
+	"Resolution": "6M",
+	"InfraredIO": 255,
+	"IrCutSwap": 1,
+	"SoftLED": 17,
+	"SoftLedIO": "0x8786"
+}

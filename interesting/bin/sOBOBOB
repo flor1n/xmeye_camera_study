@@ -1,0 +1,1778 @@
+/lib/ld-uClibc.so.0
+libpthread.so.0
+longjmp
+stpcpy
+waitpid
+pthread_cond_signal
+sysconf
+pthread_attr_destroy
+pthread_create
+pthread_rwlock_rdlock
+pthread_attr_init
+pthread_rwlock_init
+pthread_exit
+sem_timedwait
+munmap
+__pthread_key_create
+getpid
+memcpy
+sem_destroy
+system
+malloc
+pthread_rwlock_destroy
+sem_wait
+statfs
+sem_post
+pthread_rwlock_unlock
+mmap
+pthread_detach
+pthread_getschedparam
+calloc
+pthread_once
+pthread_setschedparam
+sem_init
+pthread_attr_setstacksize
+pthread_rwlock_wrlock
+sched_get_priority_max
+realloc
+sched_get_priority_min
+sscanf
+sem_trywait
+sigaction
+gettimeofday
+fopen
+memset
+fclose
+pthread_mutexattr_settype
+strcmp
+pthread_mutex_unlock
+_fini
+vfork
+pthread_rwlock_trywrlock
+pthread_rwlock_tryrdlock
+pthread_self
+pthread_mutexattr_init
+pthread_mutex_destroy
+pthread_mutex_lock
+sem_getvalue
+pthread_cond_wait
+__errno_location
+pthread_mutex_trylock
+_setjmp
+pthread_mutex_init
+strlen
+pthread_join
+mkdir
+libXMcrypto.so
+putchar
+ioctl
+strerror
+CryptoBurnHWID
+fgets
+SystemGetBurnInfo
+remove
+lseek
+alarm
+SystemReboot
+__deregister_frame_info
+_ITM_registerTMCloneTable
+CryptoBurnHWIDActivation
+strstr
+memcmp
+fread
+_ITM_deregisterTMCloneTable
+CryptoBurnHWIDNat
+srand
+ftok
+SystemGetExFunction
+stderr
+fwrite
+access
+fputs
+_Jv_RegisterClasses
+fcntl
+__register_frame_info
+libdvr.so
+FlashWrite
+strcpy
+NetGetSoftAPState
+NetSetMAC
+popen
+stdout
+Is4GBoard
+string_get_value
+set_armboot_para
+recv
+WlanGetDeviceType
+json_object_get_object
+inet_pton
+SysRegRead
+pclose
+syscall
+NetStartSoftAP
+CommDestory
+__ctype_b
+motor_stop
+motor_open
+NetSetPPPoEConfig
+usleep
+NetSetDhcpEnable
+__fifo_get
+NetGetDhcpEnableIPV6
+fscanf
+NetGetGatewayIPV6
+fcntl64
+prctl
+SysRegWrite
+NetGetDialIpAddress
+PtzClose
+RemoteConfigMode
+NetGetDhcpEnable
+PtzGetCurStep
+perror
+FrontboardCreate
+rewinddir
+NetSetGateway
+fifo_init
+GetShutdownState
+vsnprintf
+recvfrom
+strtoul
+motor_gotopoint
+fifo_alloc
+socket
+select
+json_object_from_file
+readdir
+PtzRead
+GetHardwareVersion
+json_object_array_get_idx
+motor_get_maxsteps
+SystemBeep
+getSystemInfo
+ide_wakeup
+freeaddrinfo
+FlashDestroy
+chmod
+SystemGetLedIndicatorOnOffAbility
+SystemTimeToRtcTimeSet
+FlashInit
+isFinishGotoSavePreset
+json_object_array_length
+PtzCreate
+UartOpen
+AlarmCreate
+strrchr
+NeedModifyNickName
+NetGetGateway
+UartRead
+GetPidByName
+kill
+NetSetDNSAddress
+strcat
+bind
+inet_addr
+UpNetCard
+Get4GState
+AlarmSetInSlots
+setsockopt
+fseek
+FlashRead
+ide_fsync
+FlashGetSectorSize
+json_object_get_int
+NetGetMAC
+FrontboardWrite
+SystemSetZoneinfo
+mktime
+AlarmDestory
+CommWrite
+json_object_get_string_len
+ide_hotplug_proc
+envgetvalue
+strncmp
+camera_get_flip
+strncpy
+strcasecmp
+sendto
+GSensorConfigure
+NetSetDhcpEnableIPV6
+AlarmRead
+NetSetMAC2
+json_object_get_boolean
+CommClose
+PtzWrite
+json_object_object_get
+NetGetDNSAddress
+json_object_get_type
+FlashErase
+UartSetAttribute
+mii_diag
+inet_ntoa
+opendir
+PtzGetPresetAbility
+camera_get_mirror
+GsensorINT1StateRead
+ide_getinfo64
+DownNetCard
+UartWrite
+AlarmWrite
+mii_diag_eth2
+PtzSetAttribute
+json_object_get_string
+GetWifiLevel
+WatchdogCreate
+motor_gotopreset
+NetSetHostIP
+FrontboardRead
+fputc
+timegm
+AlarmGetInSlots
+getaddrinfo
+PtzDestory
+NetStartSTA
+__fifo_put
+ide_read64
+CommSetAttribute
+NetGetHostIP
+CommPurge
+rewind
+LibXmDvr_Debug_setPasswd
+SystemEnableAudioOut
+PtzOpen
+json_object_put
+stime
+PtzGetSteps
+inet_ntop
+CommOpen
+AlarmGetOutSlots
+atoi
+NetGetHostIPV6
+NetSetHostIPV6
+ide_setstandby_multi
+fileno
+ide_setstandby
+fifo_free
+gmtime
+ide_write64
+motor_status_get
+GetIpcWifiLevel
+ClearConfig
+CommRead
+ide_init
+strchr
+GetClearState
+closedir
+NetGetPPPoEConfig
+NetAddRoute
+NetDelRoute
+WatchdogWrite
+NetStopSoftAP
+CommCreate
+GetWlanState
+UartClose
+vfprintf
+fopen64
+libdl.so.0
+getenv
+libjson.so.0
+strncasecmp
+vprintf
+strdup
+libstdc++.so.6
+_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E
+memmove
+_ZNKSt5ctypeIcE13_M_widen_initEv
+_ZNSs3endEv
+_ZNKSs4findEPKcj
+_ZNSt18basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev
+_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+_ZdlPv
+_ZTTSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE
+_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base
+_ZNSt8ios_baseD2Ev
+_ZNSsC1ERKSsjj
+_ZTISt9bad_alloc
+_ZNSt19basic_istringstreamIcSt11char_traitsIcESaIcEED1Ev
+_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base
+_ZNSs6appendERKSsjj
+_ZTTSt19basic_istringstreamIcSt11char_traitsIcESaIcEE
+__cxa_end_catch
+_ZNSs9_M_mutateEjjj
+_ZStrsIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RSbIS4_S5_T1_E
+_ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev
+_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base
+_ZNSt9bad_allocD1Ev
+ceil
+_ZNKSs7compareEPKc
+atan2
+_ZNSs9push_backEc
+_ZNSs5clearEv
+_ZTVSt18basic_stringstreamIcSt11char_traitsIcESaIcEE
+_ZNSt8ios_baseC2Ev
+tanh
+_ZSt4cout
+_ZTVSt9basic_iosIcSt11char_traitsIcEE
+_ZNSt6localeC1Ev
+_ZNSs6resizeEj
+_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+_ZNSsC1EjcRKSaIcE
+_ZNSs13_S_copy_charsEPcPKcS1_
+fflush
+_ZNSsC1ERKSs
+fmod
+__cxa_guard_release
+_ZNKSs4findEPKcjj
+_ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode
+_ZNSs12_M_leak_hardEv
+acos
+writev
+_ZNKSs6substrEjj
+_ZNKSs7compareERKSs
+_ZNSt8ios_base4InitD1Ev
+_Znwj
+_ZNSs5eraseEjj
+_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED1Ev
+_ZNSs6appendERKSs
+_ZNSs6assignEPKc
+__assert
+_ZTVSt15basic_streambufIcSt11char_traitsIcEE
+_ZNSaIcEC1Ev
+__cxa_pure_virtual
+_ZTTSt18basic_stringstreamIcSt11char_traitsIcESaIcEE
+_ZNSo9_M_insertIyEERSoT_
+_ZNSdD2Ev
+_ZSt16__throw_bad_castv
+_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i
+_ZNSsD1Ev
+_ZNSs7replaceEjjPKc
+_ZNSt8__detail15_List_node_base9_M_unhookEv
+_ZNSs5beginEv
+atan
+_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcjj
+_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE
+asin
+_ZNKSs4findERKSsj
+_ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_ERKS6_S8_
+_ZdaPv
+_Znaj
+strftime
+_ZNKSt5ctypeIcE8do_widenEc
+_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev
+_ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RSbIS4_S5_T1_ES4_
+_ZTVSt19basic_istringstreamIcSt11char_traitsIcESaIcEE
+_ZNSspLERKSs
+_ZNSs7_M_leakEv
+__gxx_personality_v0
+_ZNSs7reserveEj
+vsprintf
+_ZNSspLEPKc
+_ZNSsaSEPKc
+_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate
+_ZTVSt9bad_alloc
+_ZNSs4_Rep9_S_createEjjRKSaIcE
+_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_
+__cxa_begin_catch
+_ZNSsC1EPKcRKSaIcE
+__cxa_rethrow
+_ZNSt6localeD1Ev
+_ZNKSt15basic_stringbufIcSt11char_traitsIcESaIcEE3strEv
+_ZNSsC1EPKcjRKSaIcE
+_ZNSs2atEj
+stdin
+_ZNKSs4findEcj
+_ZNSs6appendEPKc
+_ZNSt8ios_base4InitC1Ev
+_ZTVN10__cxxabiv120__si_class_type_infoE
+_ZTVSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE
+_ZNSsaSERKSs
+_ZNSs4_Rep10_M_destroyERKSaIcE
+isalnum
+_ZNSs4swapERSs
+_ZNSt8__detail15_List_node_base11_M_transferEPS0_S1_
+_ZSt24__throw_out_of_range_fmtPKcz
+log10
+sqrt
+_ZSt18_Rb_tree_decrementPKSt18_Rb_tree_node_base
+_ZNSs4_Rep20_S_empty_rep_storageE
+__cxa_guard_abort
+_ZNKSs13find_first_ofEPKcj
+_ZNSs6assignERKSs
+_ZNSt8__detail15_List_node_base7_M_hookEPS0_
+strtod
+_ZNSs6appendEjc
+_ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_EPKS3_RKS6_
+__cxa_end_cleanup
+_ZNSs6appendEPKcj
+_ZNKSs4copyEPcjj
+_ZSt20__throw_length_errorPKc
+_ZTVN10__cxxabiv117__class_type_infoE
+_ZNSs12_S_constructIPcEES0_T_S1_RKSaIcESt20forward_iterator_tag
+_ZNSolsEi
+fdopen
+_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_
+_ZSt17__throw_bad_allocv
+_ZNSaIcED1Ev
+floor
+_ZNSs4_Rep26_M_set_length_and_sharableEj
+_ZTVN10__cxxabiv121__vmi_class_type_infoE
+__cxa_guard_acquire
+_ZNSs6assignEPKcj
+_ZSt19__throw_logic_errorPKc
+libm.so.0
+round
+powf
+sqrtf
+cosf
+sinf
+ceilf
+log2
+expf
+floorf
+pthread_setspecific
+pthread_attr_setdetachstate
+pthread_attr_getstacksize
+pthread_key_delete
+pthread_getaffinity_np
+pthread_attr_setaffinity_np
+pthread_setaffinity_np
+strtoull
+libgcc_s.so.1
+__aeabi_unwind_cpp_pr0
+__aeabi_d2lz
+__aeabi_fadd
+__aeabi_uldivmod
+__aeabi_i2f
+__aeabi_d2f
+__aeabi_fsub
+__aeabi_idiv
+__aeabi_f2iz
+__aeabi_fdiv
+__aeabi_l2f
+__aeabi_uidiv
+__aeabi_l2d
+__aeabi_ul2f
+__aeabi_fcmpeq
+__aeabi_fmul
+__aeabi_fcmplt
+__aeabi_uidivmod
+__aeabi_unwind_cpp_pr1
+__aeabi_f2d
+__aeabi_idivmod
+__aeabi_ldivmod
+libc.so.0
+clock_gettime
+strtok_r
+connect
+sigemptyset
+epoll_wait
+stat64
+atol
+times
+qsort
+msgrcv
+seekdir
+dup2
+feof
+gethostbyname_r
+rmdir
+__ctype_toupper
+send
+epoll_ctl
+gmtime_r
+isxdigit
+strtol
+pipe
+accept
+rename
+atof
+fstat
+timezone
+strcasestr
+ferror
+sethostname
+epoll_create
+strtok
+listen
+execv
+isalpha
+strncat
+msgsnd
+__res_init
+__uClibc_main
+localtime
+ftell
+__sched_cpucount
+clearerr
+ntohs
+shutdown
+gethostbyname
+fgetc
+gethostname
+getpeername
+srandom
+readdir64_r
+strsep
+getsockopt
+localtime_r
+socketpair
+htons
+iscntrl
+getline
+execvp
+setsid
+__ctype_tolower
+msgget
+telldir
+strpbrk
+getsockname
+__cxa_atexit
+_edata
+__bss_start
+__bss_start__
+__bss_end__
+__end__
+_end
+./:/lib:/usr/lib
+LpdrWork
+fmeEnmItp
+FrDestroy
+FpCnnDestroy
+SystemGetHomeIPCNickName
+IqdConfig
+CdsWork
+CdsDestroy
+XM_Adas_Destroy
+CaptureSetIProp
+imePosCtrX
+rdft_wk1i
+IA_PGS_Destroy
+HisiMmzFree
+block_len
+gstMemoryManagement
+LpdrConfig
+FpCnnWork
+KeywordWork
+rdft_wk3r
+sqrtHanning
+ColorFacealiveInit
+filter_length
+imeEnmSlp
+IA_OBJTL_Config
+KeywordInit
+XmMalloc
+k_swap_sign
+XM_API_CreateMmzImageAlgn
+IA_OBJTL_Init
+rdft_wk3i
+XM_API_CreateMallocImage
+SdvWork
+TdConfig
+kRandNTable
+fVarPdFeature
+XM_NnAddTensorParamNull
+TdDestroy
+XM_NnAddTensorParam
+IA_OBJTL_Destroy
+KeywordDestroy
+TdInit
+cftmdl_wk1r
+IA_VAD_Work
+LpdrDestroy
+TdWork
+rdft_w
+CmpFloat
+ColorFacealiveDestroy
+FdrDestroy
+FrWork
+FFTtotalMem
+XM_Adas_Work
+CdsConfig
+TD_ThreadMaxNum
+fmeNumTrv
+stifftout
+stDst
+IA_SC_Destroy
+FdrWork
+PfdrInit
+Aec_overDriveCurve
+CdsInit
+OutPath
+stDumpLogManager
+imeEnmCtr
+IA_PGS_Config
+fmeNumCtr
+buff_length
+PetdConfig
+PdWork
+puiLogFlag
+imeNumPtn
+PfdrDestroy
+fmeEnmCtr
+RspWork
+Aec_weightCurve
+rmdDatMod
+SdvConfig
+histogram_length
+FrInit
+PfdrConfig
+ObjdConfig
+RspDestroy
+HisiMmzAlloc
+PetdWork
+stIveHandle
+IA_SC_Config
+ulPhyAddr
+IqdDestroy
+IA_PGS_Work
+IqdInit
+FrConfig
+FpCnnInit
+XM_Adas_Config
+IA_SC_Work
+rdft_wk2r
+IA_OBJTL_Work
+stDftCtrl
+PetdDestroy
+XmFree
+stSrc
+SdvInit
+fMeanPdFeature
+PetdInit
+rmdGrp
+CB_win
+RemoteInfoWrite
+ColorFacealiveWork
+asSigmoidTable4096
+PdDestroy
+IA_VAD_Init
+filter_shift
+afTablePower2
+KeywordConfig
+CaptureSetLedType
+rdft_wk2i
+IA_PGS_Init
+IA_SC_Init
+imeSizPtnX
+asSigmoidTable
+ObjdInit
+RspInit
+PfdrWork
+LpdrInit
+IA_VAD_Config
+ObjdWork
+FdrConfig
+SdvDestroy
+RspConfig
+rdft_wk1r
+IA_VAD_Destroy
+imePosCtrY
+PdInit
+XM_Adas_Init
+XM_API_CreateMmzImage
+ObjdDestroy
+imeFlgD_s
+IqdWork
+FdrInit
+imeSizPtnY
+PdConfig
+GCC_3.5
+GLIBCXX_3.4.20
+GLIBCXX_3.4.11
+GLIBCXX_3.4.9
+CXXABI_1.3
+GLIBCXX_3.4.5
+GLIBCXX_3.4.15
+GLIBCXX_3.4
+0C2L1
+0C2L1
+Q0@-
+Q0@-
+Qp@-
+Q8@-
+A#,@
+333?
+; 2<
+;82<
+?u='@^
+Pc =
+A[=K
+?>e<
+H2648@-
+VAHDFFIR IVAVAFJhivasduafrts@B
+VAHD
+VAHD
+bw10p 
+bw10
+bw10cd00bd00
+:$ C
+Cp@-
+:p0K
+?s@-
+JMJM8@-
+Q!  
+QZ^&
+|6*)
+g&3g
+QZ^&"a
+|69Y
+vRQ>
+LwH'
+@B 0
+B	f>
+Eg?mh>
+QZ^&]
+VUUU
+VUUU
+>f @
+}|{z
+Bp@-
+xhy@
+/1| 
+F8~K
+  L"
+ n0 0
+  A"
+ `0 0
+M,@%IA
+@<JA
+@MJA
+VP@:LA
+VP@!MA
+VP@RMA
+VP@5NA
+erOA
+BP@/OA
+BP@/OA
+O@@SSA
+	O@@
+O@@TUA
+O@@TUA
+O@@lUA
+O@@lUA
+O@@N
+O@@N
+O@@<VA
+A8@p@-
+@4[A
+@N[A
+@k[A
+e7@-
+`@Zd;
+??5^
+R<@ddA
+R<@(eA
+R<@>eA
+	R<@TeA
+@p8H
+Z$zw
+ffffff
+?333333
+z?FZ
+333333
+<7>O;
+(\O?
+<0H-
+=fff?
+33s?
+=fff?
+=fff?o
+333?
+U?B`
+333333
+?ffffff
+C0@-
+&E,eG
+_@P0
+ffffff
+?ffffff
+o@4A
+@o@l_
+ISPM@
+QZ^&]
+#ISi
+#ISi
+xV4,H@
+?333333
+TRAP
+RIQSLIAT
+TRAP
+RIQS
+LIATX
+I(@^
+3333
+3333
+ffffff
+FC@=
+-*&#
+:630
+?333333
+*	0b
+Dec 29 2022
+09:35:30
+ find 1 pid %ld
+ find 2 pid %ld
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ catch SIGFPE exception! pid:%ld
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ catch SIGPIPE exception! pid:%ld
+SignalFunc3  child exit
+SetTime
+NotifyTimeChanged
+timeChanged
+PreUpgrade
+DiskIn
+---MainApp DiskIn---
+---MainApp find unrecgonizeDev, formating
+Monitor_%02d
+Replay_%02d
+XM530V200
+%s%d.%02d.%s
+CompatibleVersion
+/mnt/mtd/Flags/KeepDayNightModeFlag
+%d %d
+System.ProductId
+9ABC8DEF7GHI6JKL5MNO4PQR3STU2VWX1YZ0
+IsServer
+IsClient
+Anonymity
+NetWork.RTSP
+---- cameraInitCoord, Not support resolution. -----
+Camera.ClippingParam
+IsClipping
+StartX
+StartY
+/mnt/mtd/testMtdSpace
+EEEEEEEEEE
+DoMtdCheckClean : Clean extra files
+/mnt/mtd
+/mnt/mtd/%s
+rm %s
+/mnt/mtd/Config/Json
+/mnt/mtd/Config/Json/%s
+/mnt/mtd/Config/Account2
+/mnt/mtd/Log/Log
+/mnt/mtd/NetFile/customAlarmVoice.pcm
+-------Sofia build time : %s %s-------
+/mnt/mtd/Flags
+/var/tmp/
+/var/abnormalInfo
+/mnt/mtd/sofia.log
+/var/abnormalInfo/sofia.log
+/mnt/mtd/halted.log
+/var/abnormalInfo/halted.log
+PackSize
+/mnt/mtd/Log/InitialLanguage
+General.Location
+%s %d Use Initial Language : %s
+/home/zhangjingyf/Trunk/MainApplication/LINUX/.//MainApp.cpp
+/mnt/mtd/Flags/initWfsRecordSecondFlag
+/mnt/mtd/Flags/WfsRecordSecondFlag
+MainStream
+ExtStream
+Storage.RecordStream
+eth0
+wait wifi connect , then star onvif
+<ERROR_gyj>___do Pend___ : %d
+Monitor_01
+Replay_01
+ChannelTitle
+Talk_01
+IPCCamera
+ImExport
+EncodeConfig
+SysInfo
+QueryLog
+DelLog
+SysUpgrade
+GeneralConfig
+NetConfig
+AlarmConfig
+VideoConfig
+RecordConfig
+CommConfig
+PtzConfig
+/mnt
+/mnt/custom/data/Strings
+/mnt/custom/data/Fonts
+/usr/bin/lua
+/mnt/custom/CustomConfig
+/mnt/custom/ProductDefinition
+/mnt/mtd/Log/
+/mnt/custom/Account.custom
+/mnt/mtd/Config/Account1
+SimpChinese
+TradChinese
+Italian
+Spanish
+Japanese
+Russian
+French
+German
+Portugal
+Turkey
+Poland
+Romanian
+Hungarian
+Finnish
+Estonian
+Korean
+Farsi
+Dansk
+Thai
+Greek
+Vietnamese
+Ukrainian
+Brazilian
+Hebrew
+Indonesian
+Arabic
+Swedish
+Czech
+Bulgarian
+Slovakia
+Dutch
+Serbian
+Croatian
+Azerbaycan
+ChineseEnglish
+camera_get_ledMode mode:%x
+camera lightType:%d
+/mnt/mtd/Flags/SoftPhotosensitiveFlag
+WIFINVR00
+[1;33m Support Auto Video WLanGetConfig Enable=%d ssid=%s 
+ModuleFuncAESEncrypt
+ModuleFuncAESEcbEncryptV2
+ModuleFuncAESEcbDecryptV2
+None
+Unknown
+8188eu
+rt3070sta
+mt7601Usta
+rt5370sta
+xm711
+ss6051
+xm712
+8188ftv
+8821cs
+8192cu
+8192eu
+8188etv
+xm713
+s9083h
+8192fc
+xm713g
+xm712g
+hi3861L
+SSV6225
+rtl8821cu
+ECR6600U
+SSV6355
+SSV6158M
+eth3
+ failed
+  ! ctr_drbg_init returned %d
+ failed
+  ! rsa_gen_key returned %d
+,%02X%02X%02X
+  . Generating the RSA key [ %d-bit ]...
+rsa_genkey
+encrpyt length is too small:%d
+ failed
+  ! rsa_pkcs1_decrypt name returned %d
+rsa_decrypt
+ModuleFuncRSAInitPubKey : null param
+drbg_init
+mpi:%d
+xmdev
+ModuleFuncRSAPubEncrypt : null param
+ModuleFuncRSAPubEncrypt : only support 1024 bit
+ input:%d bit
+pub encrypt:%d
+%s %s %d datalen must multiple of 16
+/home/zhangjingyf/Trunk/MainApplication/LINUX/.//../ModuleFunction.cpp
+ModuleFuncAESEncrypt : aes enc key not set
+[1;31m file:%s, line=%d Encode base64 REEOR(%d) cilen:%d!
+[1;31m file:%s, line=%d Encrypt AES REEOR(%d) !
+ModuleFuncAESEncryptV2 buffer too small (%d < %d)
+ModuleFuncAESDecrypt : aes dec key not set
+[1;31m file:%s, line=%d Decode AES REEOR(%d) !
+[1;31m file:%s, line=%d Decode base64 REEOR(%d) !
+[1;31m pCipherText = %s
+[%s] Input Data is NULL !!!!!!!! 
+[%s] aes_setkey_enc failed !!!!!!!! 
+[%s] aes_crypt_ecb AES_ENCRYPT failed !!!!!!!! 
+[%s] base64_encode failed !!!!!!!! 
+[%s] base64_decode failed !!!!!!!! 
+[%s] aes_crypt_ecb AES_DECRYPT failed !!!!!!!! 
+IntelCPC
+EnBase
+DssLevel
+ExtraLevel
+IpcDeviceType
+OEMID
+OEMProuct
+OEMSerial
+ModuleFuncIsWifiDriverMatch error, unsupport IPC wifi type:%d
+ModuleFuncIsWifiDriverMatch check failed!   IPC:%s  file:%s
+192.168.
+127.
+172.16.
+172.17.
+172.18.
+172.19.
+172.2
+172.30.
+172.31.
+eth2
+ModuelFuncStoreSnap getLatestPictureV2 failed
+ModuleFuncPtzGotoCenter x:%d  y:%d   maxX:%d maxY:%d midY:%d
+ModuleFuncPtzGetSteps get failed- maxX:%d maxY:%d midY:%d 
+ModuleFuncScanQrCode not support, need define CFLAGS += -D_FUNC_ZBAR_SCAN_QRCODE
+/var/wifi_list
+----------------------- read /var/wifi_list ok ---------------
+/proc/stat
+%s %u %u %u %u %u %u %u
+/proc/meminfo
+MemTotal:
+%s %u
+MemFree:
+Buffers:
+Cached:
+unsigned char* CFile::Load(const char*)
+Open
+CopyFile
+5CFile
+9CFileFind
+8CFileDir
+CFile::Close File failed !
+Close File failed !ret =%d 
+!m_internal->m_buffer
+src/File.cpp
+CFile::Load %s Read error (%d != %d)
+ret == m_internal->m_length
+[%s:%d] fopen %s at %s mode fail. errno:%d
+--- tracepoint %s,%s(%d):  ---
+CFile::CopyFile : src file open failed:%s
+CFile::CopyFile : dest file open failed:%s
+CFile::CopyFile file:%s read:%d write:%d
+srcfd open
+----------dst file:%s  open failed----------
+dstfd open
+srcfd read
+dstfd write
+virtual uint CPacketImp::SetLength(uint)
+void CPacketManagerImp::FreePacket(CPacketImp*)
+virtual uint CPacketImp::Release()
+9CXmPacket
+10CPacketImp
+dwLength <= m_Size
+src/Packet.cpp
+AllocPacket new fail
+==>CPacketManagerImp: allocate buffer:0x%08X size:%d
+CPacketManagerImp::GetPacket packet error!!!!!!
+CPacketManagerImp::GetPacket none free node!!!!!! %d
+Packet usage : %dK / %dK, %d%%
+----------------------[%02d-%02d %02d:%02d:%02d]
+CPacketManagerImp::CPacketManagerImp() new nodes failed!!!!
+CPacketManagerImp::CPacketManagerImp() new buffer[%u] failed!!!!
+%4d : 
+Release err! m_RefCount:%d, thread ID:%d
+m_RefCount > 0
+CSemaphore::CSemaphore(uint)
+CSemaphore::~CSemaphore()
+int CSemaphore::Pend()
+int CSemaphore::Post()
+int CSemaphore::GetValue()
+m_internal->m_sem
+src/Semaphore.cpp
+ret != -1
+ret ==0
+void CThreadManager::ReleasePooledThread(PooledThread*)
+7CThread
+10IThreadLet
+12PooledThread
+9Threadlet
+Nonamed
+sched set %s %d, %d
+set pthread_setschedparam fail, %s
+CThread::CreateThread  faild  errID:%d  errno:%d
+Pooled
+AddThread failed!
+pThread
+src/Thread.cpp
+ReleasePooledThread failed!
+Threads:
+               Name            PID  Prior State
+%24s   %8d  %3d  %s
+CThreadManager::CThreadManager()>>>>>>>>>
+void CTimerManager::PutTimerThread(CTimerThread*)
+virtual void CTimerManager::ThreadProc()
+8CXmTimer
+13ITimerManager
+12CTimerThread
+13CTimerManager
+Running
+Idle
+Timers: ( %llu Milli-Seconds Elapsed )
+            Name            NextTime RunningTime Period   Used/Timeout State
+____________________________________________________________________________
+%24s %11llu %11llu %6d %6d/%6d %s
+[Pooled]
+TimerManager
+src/Timer.cpp
+<ERROR_gyj>____ do m_semaphore.Pend failed =%d  %s
+<ERROR_gyj>_____m_caller is NULL 
+static void CTime::setFormat(std::string)
+static void CTime::FormatTimeString(SystemTime*, char*, const char*)
+src/Time.cpp
+%s-%s : %d us
+1Format Error t:%d
+Cannot Set Date
+CTime::setCurrentTime to %04d-%02d-%02d %02d:%02d:%02d
+%04d-%02d-%02d %02d:%02d:%02d(U)
+2Format Error t:%d
+CTime::setCurrentUTCTime to %04d-%02d-%02d %02d:%02d:%02d
+yyyy-MM-dd HH:mm:ss
+%d.%d.%d.%d
+bool CMsgQueImp::RecvMessage(CMsgQue::MSG*, bool)
+7CMsgQue
+10CMsgQueImp
+m_nMsg
+src/MsgQueV2.cpp
+Infra: $base Dir XXX, $Source svn: XXX, $Include svn: XXX, $Build in:%s, %s
+Jan 20 2022
+09:54:26
+CInfra::start()>>>>>>>>>>
+%s/%s
+15CFuncStuckCheck
+FuncStuck: %s 
+FuncStuck
+FuncStuckExit: %s 
+FuncStuckExit
+FuncStuckCheck
+CMutex::CMutex(int)
+CMutex::~CMutex()
+bool CMutex::Leave()
+m_internal->m_lock
+src/Mutex.cpp
+ret == 0
+14IConfigManager
+saveFile
+14CConfigManager
+0x%08X
+%s%08X
+%d %02d:%02d:%02d-%02d:%02d:%02d
+CConfigManager::readConfig gzopen file %s failed
+saveFile:%s
+[%s %d]
+write config file failed!
+Simplify.Encode
+AVEnc.Encode
+MainFormat
+AudioEnable
+ExtraFormat
+custom config %s verify failed with ret:%x!
+CConfigManager::getConfig %s, but default config is not set yet!
+cfg -d [name] [index] display the config!
+cfg -a        display all config name!
+%s:%s
+--------------------------------All Config members------------------------------
+%18s 
+CConfigManager::setConfig(%s, %s) to memery
+SaveConfig
+.[ff]
+parse custom config:%s OK.
+parse custom config:%s ---failed---!
+read custom config:%s failed!
+getconfig 
+verify 
+hook 
+setconfig 
+apply 
+other 
+/var/ConfigBlock.txt
+/mnt/mtd/FactoryCfg
+%s/%s.fac
+RemoveAll %s fail!!!
+RemoveDirectory %s fail!!!
+MakeDirectory %s fail!!!
+Open strSrcFullName =[%s] fail!!
+error:failed to write change into file:%s
+%s: Write change to file %s OK!
+%s: No change!
+ConfigSave
+CfgCheckCall
+readConfig file:%s failed
+CConfigManager::start() first config file %s parsing failed.
+CConfigManager::start() second config file %s.second parsing failed too.
+Config Help Utility!
+8IConsole
+8CConsole
+CConsole::onQuit quit debug.
+myExit a signal SIGINT!!!
+myExit a signal SIGTERM!!!
+myExit a signal UNSUPPORT!!!
+-------------------------------------------------------------------
+%-9s   %s
+To see details, please use `cmd -h`. 
+current time: %s
+Console
+name:/>
+password:/>
+NONE
+Username or Password not valid!
+%s$ 
+help
+Dump this help message!
+shell
+Entering system shell!
+quit
+Logout myself!
+packet
+Dump packet infomation or packet!
+Reboot the system!
+timer
+Dump all timer!
+thread
+Dump all thread!
+show current time!
+CConsole::unregisterCmd OK!
+CConsole::unregisterCmd not find the proc !
+CConsole::registerCmd had been register:(%s)!!
+'%s' is not a command.
+13IEventManager
+onConsole
+latchEvent
+notify
+13CEventManager
+LogEnable
+system
+Active Application Events:
+code                Index InSection InStopping Latches
+%-16s     %2d      %d        %d      [
+CAppEventManager::latchEvent failed, max latches reached.
+Dejitter
+EventConfig
+CAppEventManager::notify invalid event code: %s
+EventManager
+8ILocales
+8CLocales
+/mnt/mtd/Language/
+Language load path:%s
+CLocales::setLanguage Load Strings File '%s' Failed!
+CLocales::setLanguage Strings File Format Error!
+CLocales::LoadAnyParsedString Load Strings File '%s' Failed!
+CLocales::LoadAnyParsedString Strings File Format Error!
+/mnt/mtd/Log/SupportLanguage
+CLocales::CLocales()>>>>>>>>>
+4ILog
+config
+DumpState
+DumpInfo
+onConsole
+append
+CLog
+saveFile
+4CLog
+CLog::config m_filePath = %s
+Log State :
+count = %5d
+head  = %5d
+tail  = %5d
+last  = %5d
+%03d %02d-%02d-%02d %02d:%02d:%02d [%s]%s,%s
+log command usage:
+log -c				: clear all logs
+log -a [type] [n]	: append n test logs
+log -s				: show log stat.
+log -d				: display all logs
+CLog::get pos = %d; m_tail = %d; m_head = %d
+type:%s data:%s
+<<<check log item>>>log item is out of buffer size !!!
+%04d-%02d-%02d %02d:%02d:%02d [%s]%s,%s
+type:%s
+%04d-%02d-%02d %02d:%02d:%02d [%s]%s
+ClearLog
+CLog::CLog()>>>>>>>>>
+CLog::CLog() open file failed!
+<<<geyj test log>>>log size=%d, error !!!
+<<<geyj test log>>>log item size=%d,out of range !!!
+Open log file:%s failed!
+8IMiscBox
+reboot
+rebootV2
+sync
+getEncryptExAbilityInfo
+config
+static void CMiscBox::config(const char*)
+initSystemAbility
+setSystemAbility
+initEncryptExAbility
+setEncryptInfo
+setEncryptExAbilityInfo
+start
+setProducerInfo
+getProducerInfo
+8CMiscBox
+CMiscBox::rebooting...
+%04d-%2d-%02d %02d:%02d:%02d(1)
+CMiscBox::rebooting...V2
+CMiscBox::rebootV2 with type:%d
+%04d-%2d-%02d %02d:%02d:%02d(%d)
+CMiscBox::rebootV2 run SystemReboot
+CMagixBox::sync...
+CMagixBox::sync end...
+MachineName
+LocalNo
+--- CMagicBox::setUbootEnv(%s,%s)  same,no save!
+--- CMagicBox::setUbootEnv(%s,%s) failed!
+timeMin
+===new timezone__%d__,old timezone__%d___========
+%04d%02d%02d
+EncrptType
+base64_encode failed
+src/MiscBox.cpp
+1234567890123456
+a0%02d%02d%02d%02d%02d%c%c%c%c
+mac long is not true!
+%02x:%02x:%02x:%02x:%02x:%02x
+mac[0](0x%x)%%2=0x%x
+productPath
+CMiscBox::config '%s' 
+%llx
+%012llx%02d%02d%02d
+%s%s%s
+%d%s%s
+ethMac:%s
+000000000000
+%lld
+pBurnMac:%s
+000b3f000001
+000046344566
+%012llx
+--- use v4 SN --- SN:%s -- year:%d
+Hardware
+--- use v3 SN --- SN:%s -- year:%d
++++ use V2 SN :%s+++
+--- use old SN :%s--- year:%d
+mac long is not true!  %zu!=12
+CMiscBox::setCustomInfo mac(%s) not true!
+CMiscBox::setCustomInfo mac[0]=0x%x and not even
+CMiscBox::setCustomInfo Series long is not true!
+OEM_MAC_EXCLOUD mac long is not true!  %zu 
+WatchDog
+SyncFlashTime
+DSTRule
+DateFormat
+YYMMDD
+DateSeparator
+TimeFormat
+WorkDay
+IranCalendar
+DSTStart
+Week
+DSTEnd
+WifiType
+SubDevID
+ExtProtocol
+OEMSelfDef
+PrimerIntel
+AdvIntel
+ExtDevIDConfig.ExtDevIDCfg
+Save SysTime to Flash:%04d-%02d-%02d %02d:%02d:%02d
+/mnt/mtd/Config/SysTime
+/mnt/mtd/Log/SysTime
+/mnt/mtd/Log/hardwareAbility
+base64_decode failed
+m_tableSystemAbility:%s
+pData:%p  len:%d
+pOrginData:%s
+pBase64Data:%s
+/mnt/mtd/Log/cloudExAbility
+soft m_cloudExAbility:%x
+combine m_cloudExAbility:%x
+/mnt/mtd/Flags/CMSSetExAbility
+/mnt/mtd/Log/producerInfo
+[CMiscBox] build date:%s
+Nov  7 2022
+AutoLogout
+LocalHost
+OverWrite
+ScreenAutoShutdown
+ScreenSaveTime
+IranCalendarEnable
+FontSize
+VideoOutPut
+General.General
+System.TimeZone
+AlarmStateEnable
+ChanStateBitRateEnable
+ChanStateLckEnable
+ChanStateMtdEnable
+ChanStateVlsEnable
+ChannelTitleEnable
+RecordStateEnable
+TimeTitleEnable
+WindowAlpha
+RemoteEnable
+Deflick
+CarInfo
+GPSInfo
+fVideo.GUISet
+IOSEnable
+AndroidEnable
+OtherEnable
+SNEnable
+NameOther
+IOSLink
+https://itunes.apple.com/cn/app/id884006786
+AndroidLink
+http://d.xmeye.net/xmeye
+OtherLink
+AppDowloadLink
+CMiscBox::CMiscBox() parse product definition file failed:
+CMiscBox::CMiscBox() load product definition file failed.
+miscbox recover running time from backup
+/mnt/mtd/Config/RebootAbnormal
+CurrentTime:%04d-%02d-%02d %02d:%02d:%02d
+FlashTime:%04d-%02d-%02d %02d:%02d:%02d
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$CMOS NO PWOER$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+RecoverFlash Time:%04d-%02d-%02d %02d:%02d:%02d
+RecoverTime
+=======Shut Down at %s with reason[%d]
+%s(%d)
+SaveSystemState
+appSystemLanguage
+appVideoStandard
+appHardwareAbility
+appFishLens
+appFishViCut
+xmauto
+appFishLensP2
+appCloudExAbility
+appProducerID
+appEncryptoSerIP
+/var/T8aYMi2q
+%sHk2W#5%d%d%d
+12IUserManager
+getPassWord
+null
+1234567890123456
+getPwdVerifyQRCode
+ABCDbcdefghiEFGH3456IJKLMNOPQmnopRSTUV278WXYZajklqrstuvwxyz019+-
+virtual void CUserManager::ReleaseActiveUser(CUser*)
+AddGroup
+DumpGroup
+DumpUser
+AddUser
+virtual bool CUserManager::AddUser(const CConfigTable&, EnPwdEncrypt)
+DelUser
+DelGroup
+ModPwd
+IsPasswdValid
+ModUser
+bool CUserManager::RemoveActiveUser(CUser*)
+bool CUserManager::AddActiveUser(CUser*)
+onConsole
+SetDefault
+abcdefhjkmnprstuwxy
+2345678
+initialize
+SaveFile
+12CUserManager
+PwdPrefix
+CUserManager::IsPasswdValid() user '%s' isn't exist
+System.ExUserMap
+PasswordV2
+UserNum
+AuthorityList
+DVRIP-Web
+DVRIP-SNS
+DVRIP-NetKeyboard
+DVRIP-Server
+MegaEye
+DVRIP-FutureHome
+DVRIP-XmEye
+DVRIP-Xm030
+DVRIP-AutoSearch
+DVRIP-Upgrade
+DVRIP-Mobile
+DVRIP-NVR
+%02d,%s,%s,%04d%02d%02d,%s,%s
+src/UserManager.cpp
+aes_crypt_cbc error:%d
+%02d%02d%79s
+user
+Authority
+authority over flow!
+AddGroup
+No Group.
+Group Info:
+No User.
+User Info
+Sharable
+Memo
+factory test account
+add curUser success: %s
+pos >= 0
+TokenTime
+UserTokenUpdate
+AddUser
+0x0100007F
+Trusted
+Banned
+%d -- DelUser:input parameter not valid.
+DeleteUser
+DelGroup:Group in use.
+DeleteGroup
+ModifyGroup
+%d -- user not exist.
+ModifyPassword
+tlJwpbo6
+TOKEN
+%d -- ModUser:parameter not valid.
+%d -- ModUser:get old user failed.
+ModifyUser
+m_activeUsers.find(id) != m_activeUsers.end()
+m_activeUsers.find(id) == m_activeUsers.end()
+LockUser
+User Name        Login As         Remote Address:
+________________________________________________
+%-16s %-16s %-16s
+user command usage:
+user  	 : dump active user info
+user -u	 : dump all user info
+user -g	 : dump group info
+CUserManager::setDefault() apply custom config.
+NoMD5
+CUserManager::SetDefault() custom config file parsing failed:
+administrator group
+user group
+admin 's account
+System.AccRestoreTime
+%s%X%02x%x
+%s%X%02x%x%d%d
+%02x%02X%c%02X%02X%x%sY2=d#9dK3
+CUserManager::initialize() copy config file failed
+CUserManager::initialize() loadFile first config file failed
+CUserManager::initialize() first config file parsing failed:
+CUserManager::initialize() loadFile second config file failed
+CUserManager::initialize() second config file parsing failed too:
+CUserManager :: Load cfg failed
+AccountRestore
+Error Users
+/mnt/mtd/Log/adpw
+restore admin pwd
+--new year, delete old password
+Deraup
+uH2%sDDk%s
+------ RecoverRandom ------
+RecoverRandom
+ManagerToken: User:%s use old token
+ManagerToken: User:%s use new token
+ManagerToken: User:%s use old token, and create new token
+random auto delete admin
+NetWork.NetIPFilter
+Custom.PwdPrefixCfg
+--new year, delete old exusermap
+------usermanager-user null
+%soYz%02d%02d%s%02d%02d%s
+oYz%s%02d%02d
+CUserManager::SaveFile() write first config file failed!
+CUserManager::SaveFile() write second config file failed!
+8CZipFile
+13IAutoMaintain
+13CAutoMaintain
+The reboot is %d-%d-%d  %d:%d:%d
+reboot cmd ignored
+AutoRebootDay
+AutoRebootHour
+AutoDeleteFilesDays
+CAutoMaintain::Start()...
+General.AutoMaintain
+m_randomDelayMinutes:%d
+iMaintainType error!
+CTime::getCurrentMilliSecond OverFlow!
+Tuesday
+Never
+Everyday
+Sunday
+Monday
+Wednesday
+Thursday
+Friday
+Saturday
+9IDaylight
+9CDaylight
+DayLight Increasing time:%d-%d-%d %d:%d:%d!
+InNormalState
+General.DSTState
+Daylight Decreasing time:%d-%d-%d %d:%d:%d!
+Daylight
+5CUser
+Not login yet
+%s,%s:%s
+LogOut
+%s,%s:%s%s
+%s,%s%s
+LogIn
+Account in blacklist
+User not valid
+Account has been locked
+passwd not valid
+Account has been used
+zzip_ssize_t mbv_read(int, void*, zzip_size_t)
+/usr/bin/Squirrel/rs485/
+TransparentBase
+iBam2#0H1k
+zzip_off_t mbv_filesize(int)
+zzip_off_t mbv_seek(int, zzip_off_t, int)
+int mbv_close(int)
+AllocMemoryFromMMZ
+start
+9IUpgrader
+9CUpgrader
+(fd < maxMbvFds) && (fd >= 0)
+src/Upgrader.cpp
+CUpgrader::attachUpgradeCmd :%s
+-1v: no pub, skip check Mx8Q
+-2v: len %d
+-3v:%d
+ verify returned %d
+UpMx8Q
+CUpgrader::burnPartion '%s' open file failed, errno:%d.
+BurnALL '%s' to [%08x, %08x]
+CUpgrader::burnPartion write flash failed.
+BurnPartion '%s' invalid size [%08x, %08x]
+BurnPartion '%s' to [%08x, %08x]
+Can't find callback : %s
+Failed to open file %s
+line:%d failed  progress:%d
+CUpgrader::excuteUpgradeCmd:%s cmd:%s file:%s
+ CUpgrader::checkOEMinfoSum checksum failed to upgrade mac or sn !!!
+FileName
+Burn
+%04s%04d%08d
+BurnAll
+calcInstallDescMD5 failed
+UpgradeCommand
+calcImgFileMD5 failed
+Exception
+%s%d
+--------------------- notice : DO NOT USE MMZ !!! --------------------
+--------------------- notice : DO NOT USE MMZ !!! --------------------
+CUpgrader::putBuffer no enough memory to store upgrade file
+m_bUpgradeWithExterTool:%d
+CUpgrader::upgrade open zip dir failed.
+CUpgrader::upgrade file list:
+InstallDesc
+CUpgrader::upgrade open InstallDesc script failed.
+UpgradeProcess
+CUpgrader::upgrade parse install script failed: 
+(board):%s
+(file) :%s
+SkipCheck
+Upgrade check failed!
+ 	Hardware:%s %s
+Vendor
+Upgrade check failed!
+ 	Vendor:%s %s
+Version check failed!
+ Version:%s %s
+CompatibleVersion check failed!
+ CompatibleVersion:%d(board) %d(file)
+----------- Skip check CompatibleVersion, take care about compatibility!
+CompatibleVersion:%d(board) %d(file)
+upgrader force upgrade!
+WifiDriverType
+CUpgrader::onUpgrade wifi driver not match
+CheckVersionCRC
+CUpgrader::onUpgrade uparate file was craked NO CRC!
+CUpgrader::onUpgrade uparate file was craked! VersionCRC error
+CUpgrader::onUpgrade uparate file was craked! CRC error
+CUpgrader::onUpgrade uparate file was craked! Mx8Q error
+CUpgrader::upgrade '%s' crc is failed. %x != %x
+too many part need upgrade or FileName too long
+RemoveFile
+RemoveDir
+DirName
+CryptoIdWritePassMac
+HWID
+ID len:%d, cryptoLen:%d :%s Error!
+CryptoIdWrite
+SetHWMac
+CUpgrader::upgrade Set HWMac '%s!' fail!!!
+CUpgrader::upgrade Set HWMac '%s!' OK!
+SetOEMMac
+CUpgrader::upgrade Set OEMMac '%s!' OK!
+CUpgrader::upgrade Set OEMMac '%s!' fail!!!
+SetOEMSN
+CUpgrader::upgrade Set OEMSN '%s!' OK!
+CUpgrader::upgrade Set OEMSN '%s!' fail!!!
+SetOEMMacSN
+CUpgrader::upgrade Set OEMMacSN '%s!' OK!
+CUpgrader::upgrade Set OEMMacSN '%s!' fail!!!
+ClearOEMSN
+CUpgrader::upgrade Set ClearOEMSN '%s!' OK!
+CUpgrader::upgrade Set ClearOEMSN '%s!' fail!!!
+Script
+telnetd
+sleep
+/debug
+CUpgrader::onUpgrade pipe() failed!
+/var/upgrader
+/usr/bin/upgrader
+CUpgrader::onUpgrade copy /usr/bin/upgrader failed!
+copy /usr/bin/upgrader failed! errno:%d
+CUpgrader::onUpgrade fork() failed! errno:%d
+fork() failed
+sofia
+execv() failed:%d
+CUpgrader::onUpgrade execv failed! waitpid ret:%d
+forkExec father process: read no data, exit in 200 seconds
+ErrorCode
+UpgradeError
+faild ret:%d
+UpgradeFinish
+CUpgrader::onUpgrade uparate file was craked NO Mx8Q!
+>> %s  %d
+Upgrader
+upgrade -u file				upgrade use 'file'!
+upgrade -f file				dump buffer data to 'file'!
+upgrade -d file				dump default InstallDesc file to 'file'!
+upgrade buffer dump to file:%s
+custom-x.cramfs.img
+logo-x.cramfs.img
+romfs-x.cramfs.img
+user-x.cramfs.img
+web-x.cramfs.img
+romfs-x
+user-x
+custom-x
+web-x
+void Json::Reader::addComment(Json::Reader::Location, Json::Reader::Location, Json::CommentPlacement)
+basic_string::_S_construct null not valid
+collectComments_
+src/json_reader.cpp
+lastValue_ != 0
+Line %d, Column %d
+See 
+ for detail.
+' is not a number.
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+Empty escape sequence in string
+Bad escape sequence in string
+deque::_M_new_elements_at_front
+deque::_M_new_elements_at_back
+Missing '}' or object member name
+Missing ':' after object member name
+Missing ',' or '}' in object declaration
+Syntax error: value, object or array expected.
+Missing ',' or ']' in array declaration
+void Json::valueToString(std::string&, Json::Value::Int)
+void Json::valueToString(std::string&, Json::Value::UInt)
+void Json::StyledWriter::unindent()
+void Json::StyledWriter::writeArrayValue(const Json::Value&)
+current >= buffer
+src/json_writer.cpp
+%.16g

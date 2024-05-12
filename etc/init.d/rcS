@@ -1,0 +1,42 @@
+#!bin/sh
+
+/etc/init.d/dnode
+
+/bin/echo /sbin/mdev > /proc/sys/kernel/hotplug
+mdev -s
+
+mount -t squashfs /dev/mtdblock3 /usr
+mount -t cramfs /dev/mtdblock3 /usr
+mount -t cramfs /dev/mtdblock4 /mnt/custom   
+mount -t jffs2  /dev/mtdblock5 /mnt/mtd
+if [ $? -ne 0 ];then
+	echo "Clean up the old data in the 'mtd' partition."
+	/sbin/flash_eraseall -j -q /dev/mtd5 
+	mount -t jffs2  /dev/mtdblock5 /mnt/mtd
+fi
+#light
+
+mount -t ramfs  /dev/mem        /var
+mkdir -p /var/tmp
+
+mount -t ramfs  /dev/mem        /tmp
+
+echo 3 > /proc/sys/vm/dirty_background_ratio 
+echo 6 > /proc/sys/vm/dirty_ratio
+
+mkdir -p /mnt/mtd/Config /mnt/mtd/Log /mnt/mtd/Config/ppp /mnt/mtd/Config/Json
+
+/usr/etc/loadmod
+netinit
+
+if [ -f /usr/bin/pppd ];then
+	/usr/bin/pppd pty /etc/ppp/pppoe-start file /etc/ppp/pppoe-options &
+fi 
+
+if [ -f /mnt/custom/extapp.sh ];then
+	/mnt/custom/extapp.sh &
+fi
+if [ -f /usr/bin/quick_venc.sh ];then
+/usr/bin/quick_venc.sh
+fi
+dvrHelper /lib/modules /usr/bin/app.sh 127.0.0.1 9578 1 &

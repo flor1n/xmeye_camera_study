@@ -1,0 +1,56 @@
+{
+    "VoiceTipType": {
+        "VoiceTip": [
+            {
+                "VoiceEnum": 24
+            },
+            {
+                "VoiceEnum": 520
+            },
+            {
+                "VoiceEnum": 521
+            },
+            {
+                "VoiceEnum": 522
+            },
+            {
+                "VoiceEnum": 523
+            },
+            {
+                "VoiceEnum": 524
+            },
+            {
+                "VoiceEnum": 525
+            },
+            {
+                "VoiceEnum": 526
+            },
+            {
+                "VoiceEnum": 527
+            },
+            {
+                "VoiceEnum": 528
+            },
+            {
+                "VoiceEnum": 529
+            },
+            {
+                "VoiceEnum": 550
+            }
+        ]
+    },
+	"HumanRuleLimit": {
+		"ShowRule": false,
+		"ShowTrack": true,
+		"Sensitivity": false,
+		"SupportArea": true,
+		"SupportLine": true,
+		"LineNum": 1,
+		"AreaNum": 1,
+		"dwLowObjectType": "0x1",
+		"dwHighObjectType": "0x0",
+		"dwAreaLine": "0xFC",
+		"dwLineDirect": "0x7",
+		"dwAreaDirect": "0x4"
+	}
+}

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+tar -axf /usr/lib/modules.tar.lzma -C /var/
+cd /var/modules
+./loadxm530 -i
+. /usr/etc/loadpublic
+
+cd /var/
+rm /var/modules -rf

@@ -1,0 +1,272 @@
+#!/bin/sh
+
+WIFI=XM713G_TB
+UVC=""
+#regs 0x1002015c 0xc00 
+insmod /var/modules/sdio1_sd.ko detect=1 pdn=160
+#wifi
+insmod /var/modules/dwc2.ko
+insmod /var/modules/xm_usb0.ko
+#4gdialer &
+
+
+if [ "$WIFI" = "XM712G" ]; then
+	cp /var/modules/wifi_pdn.ko /var/
+	cp /var/modules/cfg80211.ko /var/
+	cp /var/modules/xm712g.ko /var/
+	(
+	insmod /var/wifi_pdn.ko value=163
+	insmod /var/cfg80211.ko
+	insmod /var/xm712g.ko
+	rm /var/wifi_pdn.ko
+	rm /var/cfg80211.ko
+	rm /var/xm712g.ko
+	wlandaemon 0 1 2 &
+	)&
+fi
+
+if [ "$WIFI" = "XM713G" ]; then
+	cp /var/modules/wifi_pdn.ko /var/
+	cp /var/modules/cfg80211.ko /var/
+	cp /var/modules/xm713g.ko /var/
+	(
+	insmod /var/wifi_pdn.ko value=163
+	insmod /var/cfg80211.ko
+	insmod /var/xm713g.ko
+	rm /var/wifi_pdn.ko
+	rm /var/cfg80211.ko
+	rm /var/xm713g.ko
+	wlandaemon 0 1 2 &
+	)&
+fi
+
+if [ "$WIFI" = "XM712G_XM713G" ]; then
+        cp /var/modules/sdio_wifi.ko /var/
+        cp /var/modules/wifi_pdn.ko /var/
+        cp /var/modules/cfg80211.ko /var/
+        cp /var/modules/xm712g.ko /var/
+        cp /var/modules/xm713g.ko /var/
+        (
+        insmod /var/sdio_wifi.ko
+        insmod /var/wifi_pdn.ko value=163
+        insmod /var/cfg80211.ko
+        insmod /var/xm713g.ko
+        insmod /var/xm712g.ko
+        rm /var/sdio_wifi.ko
+        rm /var/wifi_pdn.ko
+        rm /var/cfg80211.ko
+        rm /var/xm713g.ko
+        rm /var/xm712g.ko
+        wlandaemon 0 1 2 &
+        )&
+fi
+
+if [ "$WIFI" = "XM712G_XM713GTB" ]; then
+        cp /var/modules/sdio_wifi.ko /var/
+        cp /var/modules/wifi_pdn.ko /var/
+        cp /var/modules/cfg80211.ko /var/
+        cp /var/modules/xm712g.ko /var/
+        cp /var/modules/xm713g.ko /var/
+    	cp /var/modules/llc.ko /var/
+    	cp /var/modules/stp.ko /var/
+    	cp /var/modules/bridge.ko /var/
+        (
+        insmod /var/sdio_wifi.ko value=-137 clk=25
+        insmod /var/wifi_pdn.ko value=163
+        insmod /var/cfg80211.ko
+        insmod /var/xm713g.ko
+        insmod /var/xm712g.ko
+    	insmod /var/llc.ko
+	    insmod /var/stp.ko
+	    insmod /var/bridge.ko
+        rm /var/sdio_wifi.ko
+        rm /var/wifi_pdn.ko
+        rm /var/cfg80211.ko
+        rm /var/xm713g.ko
+        rm /var/xm712g.ko
+    	rm /var/llc.ko
+    	rm /var/stp.ko
+    	rm /var/bridge.ko
+        wlandaemon 0 1 2 &
+        )&
+fi
+
+
+if [ "$WIFI" = "SSV6355" ]; then
+	cp /var/modules/wifi_pdn.ko /var/
+	cp /var/modules/cfg80211.ko /var/
+	cp /var/modules/ssv6x5x.ko /var/
+	cp /var/modules/ssv6x5x-wifi.cfg  /var/
+	(
+	insmod /var/wifi_pdn.ko value=163
+	insmod /var/cfg80211.ko
+	insmod /var/ssv6x5x.ko stacfgpath=/var/ssv6x5x-wifi.cfg
+	rm /var/wifi_pdn.ko
+	rm /var/cfg80211.ko
+	rm /var/ssv6x5x.ko
+	rm /var/ssv6x5x-wifi.cfg
+	wlandaemon 0 1 2 &
+	)&
+fi
+
+if [ "$WIFI" = "SSV6158M" ]; then
+	cp /var/modules/wifi_pdn.ko /var/
+	cp /var/modules/cfg80211.ko /var/
+	cp /var/modules/mac80211.ko /var/
+	cp /var/modules/ssv6x5x.ko /var/
+	cp /var/modules/ssv6x5x-wifi.cfg  /var/
+	(
+	insmod /var/wifi_pdn.ko value=163  
+	insmod /var/cfg80211.ko
+	insmod /var/mac80211.ko
+	insmod /var/ssv6x5x.ko stacfgpath=/var/ssv6x5x-wifi.cfg
+	rm /var/wifi_pdn.ko
+	rm /var/cfg80211.ko
+	rm /var/mac80211.ko
+	rm /var/ssv6x5x.ko
+	rm /var/ssv6x5x-wifi.cfg
+	wlandaemon 0 1 2 &
+	)&
+fi
+
+
+if [ "$WIFI" = "ECR6600U" ]; then
+	cp /var/modules/wifi_pdn.ko /var/
+	cp /var/modules/cfg80211.ko /var/
+	cp /var/modules/wlan_ecr6600u_usb.ko /var/
+	(
+	insmod /var/wifi_pdn.ko value=163
+	insmod /var/cfg80211.ko
+	insmod /var/wlan_ecr6600u_usb.ko
+	wlandaemon 0 1 2 &
+	)&
+fi
+
+if [ "$WIFI" = "RTL8188" ]; then
+	cp /var/modules/wifi_pdn.ko /var/
+	cp /var/modules/cfg80211.ko /var/
+	cp /var/modules/8188fu.ko /var/
+	(
+	insmod /var/wifi_pdn.ko value=163 
+	insmod /var/cfg80211.ko
+	insmod /var/8188fu.ko
+	rm /var/wifi_pdn.ko
+	rm /var/cfg80211.ko
+	rm /var/8188fu.ko
+	wlandaemon 0 1 2 &
+	)&
+fi
+
+if [ "$WIFI" = "XM713G_TB" ]; then
+	cp /var/modules/wifi_pdn.ko /var/
+	cp /var/modules/cfg80211.ko /var/
+	cp /var/modules/xm713g.ko /var/
+	cp /var/modules/llc.ko /var/
+	cp /var/modules/stp.ko /var/
+	cp /var/modules/bridge.ko /var/
+	(
+	insmod /var/wifi_pdn.ko value=163
+	insmod /var/cfg80211.ko
+	insmod /var/xm713g.ko
+	insmod /var/llc.ko
+	insmod /var/stp.ko
+	insmod /var/bridge.ko
+	rm /var/wifi_pdn.ko
+	rm /var/cfg80211.ko
+	rm /var/xm713g.ko
+	rm /var/llc.ko
+	rm /var/stp.ko
+	rm /var/bridge.ko
+	wlandaemon 0 1 2 &
+	)&
+fi
+
+if [ "$WIFI" = "XM713G_BRG" ]; then
+	cp /var/modules/wifi_pdn.ko /var/
+	cp /var/modules/cfg80211.ko /var/
+	cp /var/modules/xm713g.ko /var/
+	cp /var/modules/llc.ko /var/
+	cp /var/modules/stp.ko /var/
+	cp /var/modules/bridge.ko /var/
+	(
+	if [ -f /mnt/mtd/Config/NVR_FLAG ]; then
+	regs 0x1002000C 0xC00
+	regs 0x1002009C 0x400
+	regs 0x100200A4 0xC00
+	else
+	regs 0x1002000C 0x400
+	regs 0x1002009C 0xC00
+	regs 0x100200A4 0xC00
+	fi
+	echo "" > /var/tmp/BRIDGE_FLAG
+	insmod /var/wifi_pdn.ko value=163
+	insmod /var/cfg80211.ko
+	insmod /var/xm713g.ko
+	insmod /var/llc.ko
+	insmod /var/stp.ko
+	insmod /var/bridge.ko
+	rm /var/wifi_pdn.ko
+	rm /var/cfg80211.ko
+	rm /var/xm713g.ko
+	rm /var/llc.ko
+	rm /var/stp.ko
+	rm /var/bridge.ko
+	wlandaemon 0 1 2 &
+	)&
+fi
+
+
+if [ "$WIFI" = "HI3861L" ]; then
+	#ifconfig eth0 down
+	insmod /var/modules/3861l_sdio.ko
+	insmod /var/modules/hichannel.ko
+	dns.sh
+fi
+
+
+if [ "$WIFI" = "SSV6225" ]; then
+	cp /var/modules/wifi_pdn.ko /var/
+	cp /var/modules/cfg80211.ko /var/
+	cp /var/modules/mac80211.ko /var/
+	cp /var/modules/ssv6x5x.ko /var/
+	(
+	insmod /var/wifi_pdn.ko value=163
+	insmod /var/cfg80211.ko
+	insmod /var/mac80211.ko
+	insmod /var/ssv6x5x.ko stacfgpath=/usr/sbin/ssv6x5x-wifi.cfg 
+	rm /var/wifi_pdn.ko
+	rm /var/cfg80211.ko
+	rm /var/mac80211.ko
+	rm /var/ssv6x5x.ko  
+	wlandaemon 0 1 2 &
+	)&
+fi
+
+if [ "$UVC" = "Y" ];then
+	(
+	insmod /var/modules/videodev.ko
+        insmod /var/modules/videobuf2-core.ko
+        insmod /var/modules/videobuf2-memops.ko
+        insmod /var/modules/videobuf2-vmalloc.ko
+        insmod /var/modules/libcomposite.ko
+        insmod /var/modules/g_webcam.ko
+	)
+fi
+
+routeswitch &
+
+get_motor_params()
+{
+	motor_params="auto_test=0"
+        if [ -e "/mnt/mtd/Log/motorset" ];then  
+                motor_params=`cat /mnt/mtd/Log/motorset` 
+        elif [ -e "/mnt/custom/CustomConfig/motor.init" ];then
+                motor_params=`cat /mnt/custom/CustomConfig/motor.init`
+	fi
+	if [ -e "/mnt/mtd/Config/maintain" ];then
+		motor_params=`echo $motor_params | sed "s/auto_test=1/auto_test=0/g"`
+	fi
+	echo -n $motor_params
+}
+
+insmod /var/modules/kmotor.ko gpio_pin=166,11,13,9,8,35,36,33,-1,-1,-1,-1 $(get_motor_params)

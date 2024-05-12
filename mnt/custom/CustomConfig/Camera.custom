@@ -1,0 +1,9 @@
+{
+	"Param": [
+        {
+			"PictureFlip": "0x00000001", 
+			"DayNightColor" : "0x00000003",
+			"PictureMirror": "0x00000001"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+	"Volume":
+	[
+		{
+			"AudioMode": "Single",
+			"LeftVolume": 50,
+			"RightVolume": 50
+		}
+	]
+}

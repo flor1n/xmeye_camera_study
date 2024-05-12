@@ -1,0 +1,25 @@
+{
+	"Device": "X6-WQ",
+	"APName": "camera_",
+	"APType": 24,
+	"WifiType": "XM713G",
+	"WifiFreq": 1,
+
+	"GPIO":
+	{
+		"Key": 161,
+		"AoEn": 162,
+		"WiFiPower": 163
+	},
+	"Led":
+	{
+		"OnOffEnable": false
+	},
+	"Motor": {
+		"Mirror": false,
+		"Flip": false
+	},
+	"Alarm": {
+		"OutPorts": [91]
+	}
+}

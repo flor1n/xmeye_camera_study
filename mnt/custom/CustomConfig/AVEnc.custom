@@ -1,0 +1,101 @@
+{
+   "Encode" : [
+      {
+         "MainFormat" : [
+            {
+	       "AudioEnable": true,
+               "Video" : {
+                  "BitRateControl" : "VBR",
+                  "BitRate" : 2048,
+                  "Compression": "H.265",
+                  "Resolution" : "6M",
+				  "Quality": 3,
+				  "FPS" : 12,
+				  "GOP" : 2
+               }
+            },
+            {
+               "Video" : {
+                  "BitRateControl" : "VBR",
+                  "BitRate" : 2048,
+                  "Compression": "H.265",
+                  "Resolution" : "6M",
+				  "Quality": 3,
+				  "FPS" : 12,
+				  "GOP" : 2
+               }
+            },
+            {
+               "Video" : {
+                  "BitRateControl" : "VBR",
+                  "BitRate" : 2048,
+                  "Compression": "H.265",
+                  "Resolution" : "6M",
+				  "Quality": 3,
+				  "FPS" : 12,
+				  "GOP" : 2
+               }
+            } 
+         ],
+         "ExtraFormat" : [
+            {
+            "AudioEnable": true,
+            "VideoEnable" : true,
+               "Video" : {
+                  "BitRateControl" : "VBR",
+                  "BitRate" : 1280,
+                  "Compression": "H.265",
+                  "Resolution" : "D1",
+                  "Quality": 3,
+                  "FPS" : 12,
+                  "GOP" : 2
+               }
+            }
+            ],
+            "EncodeStaticParam": [
+                {
+                    "Level": 41,
+                    "Profile": 2
+                }
+            ],
+            "SnapFormat": [
+                {
+                    "Video": {
+                        "BitRate": 512,
+                        "BitRateControl": "VBR",
+                        "Compression": "H.265",
+                        "FPS": -3600,
+                        "GOP": 2,
+                        "Quality": 4,
+                        "Resolution": "D1"
+                    },
+                    "VideoEnable": true
+                },
+                {
+                    "Video": {
+                        "BitRate": 512,
+                        "BitRateControl": "VBR",
+                        "Compression": "H.265",
+                        "FPS": 1,
+                        "GOP": 2,
+                        "Quality": 4,
+                        "Resolution": "D1"
+                    },
+                    "VideoEnable": false
+                },
+                {
+                    "Video": {
+                        "BitRate": 512,
+                        "BitRateControl": "VBR",
+                        "Compression": "H.265",
+                        "FPS": 1,
+                        "GOP": 2,
+                        "Quality": 4,
+                        "Resolution": "D1"
+                    },
+                    "VideoEnable": false
+                }
+         ]
+      }
+   ]
+}

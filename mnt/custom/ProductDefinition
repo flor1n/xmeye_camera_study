@@ -1,0 +1,14 @@
+{
+   "Vendor" : "General",
+   "Hardware" : "XM530V200_X6-WQ_8M",
+   "CompatibleVersion" : 3,
+   "PackSize" : 3072,
+   "Language" : [
+			"English",
+			"SimpChinese",
+			"ChineseEnglish",
+			"Spanish",
+			"Vietnamese",
+			"Portugal"
+   ]
+}
